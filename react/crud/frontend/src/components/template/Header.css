@@ -1,0 +1,11 @@
+header.header {
+    background-color: black;
+    color: rgb(169, 30, 187);
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+}
+
+header.header h1 {
+    font-size: 1.5em;
+}
