@@ -3,9 +3,12 @@ aside.logo {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 aside.logo img {
     padding: 0px;
-    width: 51%;
+    width: 60%;
+    margin-left: 50px;
+    border-radius: 5px;
 }
