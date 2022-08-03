@@ -1,26 +1,27 @@
 import './Nav.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default props =>
 <aside className='menu-area'>
     <nav className='menu'>
-        <a href='#/'>
+        <Link to='/'>
             <i className='fa fa-home'></i> Home
-        </a>
-        <a href='#/event'>
+        </Link>
+        <Link to='/event'>
             <i className='fa fa-users'></i> Evento
-        </a>
-        <a href='#/cadastr'>
+        </Link>
+        <Link to='/cadastr'>
             <i className='fa fa-users'></i> Cadastro
-        </a>
-        <a href='#/list'>
+        </Link>
+        <Link to='/list'>
             <i className='fa fa-contact'></i> Lista
-        </a>
-        <a href='#/info'>
+        </Link>
+        <Link to='/info'>
             <i className='fa fa-info'></i> Informações
-        </a>
-        <a href='#/sociais'>
+        </Link>
+        <Link to='/sociais'>
             <i className='fa fa-sociais'></i> Redes Sociais
-        </a>
+        </Link>
     </nav>
 </aside>
